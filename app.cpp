@@ -2,14 +2,14 @@
 #include <vector>
 
 int reduce(std::vector<int> v)
+{
+    int sum = 0;
+    for(int number : v)
     {
-        int sum = 0;
-        for(int number : v)
-        {
-            sum += number;
-        }
-        return sum;
+        sum += number;
     }
+    return sum;
+}
 
 
 int main()
