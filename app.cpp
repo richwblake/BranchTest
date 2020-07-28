@@ -11,6 +11,11 @@ int reduce(std::vector<int> v)
     return sum;
 }
 
+int add(int a, int b)
+{
+    return a + b;
+}
+
 
 int main()
 {
